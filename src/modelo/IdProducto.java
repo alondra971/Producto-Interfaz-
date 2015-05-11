@@ -12,7 +12,7 @@ package modelo;
  */
 public class IdProducto {
     int id;
-    String nombre,cantidad,precio,proveedor;
+    String nombre,direccion,ruc,producto,precio,cantidad,subtotal;
 
     public int getId() {
         return id;
@@ -30,12 +30,28 @@ public class IdProducto {
         this.nombre = nombre;
     }
 
-    public String getCantidad() {
-        return cantidad;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setCantidad(String cantidad) {
-        this.cantidad = cantidad;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getRuc() {
+        return ruc;
+    }
+
+    public void setRuc(String ruc) {
+        this.ruc = ruc;
+    }
+
+    public String getProducto() {
+        return producto;
+    }
+
+    public void setProducto(String producto) {
+        this.producto = producto;
     }
 
     public String getPrecio() {
@@ -46,12 +62,20 @@ public class IdProducto {
         this.precio = precio;
     }
 
-    public String getProveedor() {
-        return proveedor;
+    public String getCantidad() {
+        return cantidad;
     }
 
-    public void setProveedor(String proveedor) {
-        this.proveedor = proveedor;
+    public void setCantidad(String cantidad) {
+        this.cantidad = cantidad;
     }
+
+    public String getSubtotal() {
+        return subtotal;
+    }
+
+    public void setSubtotal(String subtotal) {
+        this.subtotal = subtotal;
+    }}
+
     
-}
